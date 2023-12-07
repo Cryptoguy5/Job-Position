@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Posting</title>
+    <style>
+        body {
+            height: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            height: 85%;
+            width: 55%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .heading {
+            height: 25%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bolder;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .margin {
+            margin: 20px;
+        }
+
+        .padding {
+            padding-top: 25px;
+        }
+
+        @media (max-width:680px) {
+            .main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="heading">
+          <h1>Sample Job Posting</h1>
+          <p class="margin">Provided below is a sample job description for an <span class="underline">Account Manager</span> position.</p>
+          <p class="margin">[COMPANY NAME]</p>
+       </div>
+       <div>
+        <p><span class="bold">Position Title:</span> Accounting Manager</p>
+       </div>
+       <div>
+        <p><span class="bold">Location:</span> City, State, Country</p>
+       </div>
+       <div>
+        <p><span class="bold">Duration:</span> full-time, part-time, contract</p>
+       </div>
+       <div>
+        <p><span class="bold">Salary</span> or <span class="bold">Salary Range:</span> Optional</p>
+       </div>
+       <div class="padding">
+        <span class="underline bold">Company Background</span>
+        <p>In this section, inform the candidate about your company, if possible, include the following:</p>
+        <ul>
+            <li>Main Activities</li>
+            <li>Company goals, missions, and objectives </li>
+            <li>Headquarters, offices, and extent of global reach</li>
+            <li>Number of exployees</li>
+            <li>Awards, recognition of ranking (ie One of top 25 companies to work for)</li>
+            <li>Ethical, social, and environmental commitments</li>
+            <li>Past connections to interns hired in the past</li>
+            <li>Company quotes or tag lines</li>
+            <li>Corporate Website</li>
+            <li>Benefits of internship</li>
+        </ul>
+       </div>
+       <div class="padding">
+        <span class="underline bold">Company Background</span>
+        <p>In this section, construct a brief description of the position, taking into considering the following questions:</p>
+        <ul>
+            <li>What is the candidate's role in the company?</li>
+            <li>What contribution do you wish to see them make?</li>
+            <li>What will they be working on?</li>
+        </ul>
+       </div>
+    </div>
+</body>
+</html>
